@@ -1,0 +1,515 @@
+body{
+    padding-top: 70px;
+   /* overflow: hidden;*/
+}
+.test{
+
+    height:20000px ;
+    background: #f6f6f6;
+    line-height: 300px;
+}
+
+/*ndiro pading psq ida madrnache pading di swalhe ali nktbohme radi ydkhlo dakhle navbar wmaywloche ybano*/
+/*hadi ta3 active link*/
+.navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {background-color: #0895d1;}
+/*hadi ta3 normale link */
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-size: 18px;
+}
+/*hadi classe ta3 MAKANI-cf*/
+.navbar-inverse.navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+}
+.navbar-inverse .navbar-brand span{
+ color: #0895d1;
+}
+.dropdown-menu {
+    background-color: #333;
+    border-top: 3px solid #0895d1;
+    min-width: 200px;
+}
+.dropdown-menu > li > a {
+    padding: 6px 20px;
+  color:#fff;
+  -webkit-transition:padding 0.5s ease;
+  -moz-transition:padding 0.5s ease;
+  -o-transition:padding 0.5s ease;
+  transition:padding 0.5s ease;
+}
+.navbar-right .dropdown-menu {
+    right: auto;
+    left: 0;
+}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus {
+    
+    background-color:#0895d1;
+    color: #fff;
+    padding-left: 25px;
+
+}
+.dropdown-menu .divider {
+    
+    background-color: #0895d9;
+}
+.navbar-nav > li > a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/*main navbar*/
+.navbar {
+    
+    min-height: 70px;
+     
+}
+/*hadi 9afla ali ndrdo 3liha ki nkono fi tlf*/
+
+.navbar-toggle {
+    margin-top: 18px;
+}
+.carousel-caption {
+    bottom: 0.5px;
+    background: rgba(3,3,3, 0.1);
+padding-left: 20px;
+padding-right: 20px;
+    
+}
+.carousel .item {
+    height: 500px;
+  
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+}
+.carousel-indicators li  {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #eeeeee;
+}
+.carousel-indicators .active {
+    width: 17px;
+    height: 17px;
+    background:#0895d1;
+}
+.carousel-indicator{
+    bottom: 0;
+}
+/*start section about*/
+.about{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about.lead{
+    color: #888;
+    font-size: 25 px;
+    margin-top: 15px;
+}
+.about h1 span{
+    color: #0895d1;
+}
+.about h1{
+    font-weight: bold;
+}
+
+
+/*end section about*/
+
+.Features{
+    background: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px    ;
+}
+.Features.feat p{
+
+    line-height: 2em;
+}
+.Features.feat span .glyphicon
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #888;
+}
+.Testimonials{
+    /*background: #eee;*/
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.Testimonials h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.Testimonials.lead{
+    line-height: 2em;
+    
+}
+.Testimonials .carousel .item {
+    height:80px;
+  
+}
+.Testimonials span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0895d1;
+    margin-bottom: 10px;
+}
+
+
+.Testimonials.carousel-inner{
+    min-height: 74;
+}
+.Testimonials .carousel-indicators {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.Testimonials .carousel-indicators li{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.4;
+    border:  3px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+  -webkit-transition:all 0.2s ease;
+  -moz-transition:all 0.2s ease;
+  -o-transition:all 0.2s ease;
+  transition:all 0.2s ease;
+    
+}
+
+.Testimonials .carousel-indicators li img{
+    max-width: 100%;}
+
+    .carousel-inner img {
+        max-width: 100%;
+        position: static;
+    }
+    .Testimonials .carousel-indicators li.active{
+        width: 80px;
+    height: 80px;
+        opacity: 1;
+    background: none;
+    border:  3px solid #0895d1;}
+    .conf_table{
+        background: #eee;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        
+    }
+.conf_table h1{
+
+        margin-bottom: 40px ;
+    }
+    .conf_table .conf_box{
+        background: #fff;
+        padding: 10px;
+    
+        border: 1px solid #ddd;
+        margin-bottom: 15px;
+    }
+
+    .conf_table .conf_box h2 {
+        margin: 5px 0px 15px;
+    }
+    .conf_table .conf_box ul {
+        line-height: 250%;
+        font-size: 18px;
+    }
+    .conf_table .conf_box a{
+        margin-bottom: 5px;
+
+    }
+    .conf_table .conf_box p {
+       font-size:35px ;
+      font-weight:bold ;
+      color: #666;
+      width: 100px;
+      height: 100px;
+      background: #f3f3f3;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      line-height: 100px;
+      -webkit-animation-duration: 0.7s;
+      -moz-animation-duration: 0.7s;
+      -o-animation-duration: 0.7s;
+      animation-duration: 0.7s;
+    }
+    .conf_table .conf_box:hover p{
+        -webkit-transform: scale(1.1,1.1) rotate(200deg) ;
+        -moz-transform: scale(1.1,1.1)  rotate(200deg);
+        -o-transform: scale(1.1,1.1) rotate(360) ;
+        transform: scale(1.1,1.1) rotate(360) ; 
+        border: 2px solid #dfdfdf;
+
+    }
+
+
+.our_team {
+    background: url('../fonts/te.jpg')  ;
+    min-height: 600px;
+}
+.our_team .team{
+    background: rgba(2,2,2, 0.6);
+    color: #fff;
+    min-height: 600px;
+    padding-top: 40px;
+    page-break-inside: 40px;
+}
+
+.our_team h1{
+    margin-bottom: 60px;
+}
+.our_team .person{
+    margin-bottom: 40px;
+}
+.subscribe{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #eee;
+}
+.subscribe h1{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+}
+.subscribe p{
+    margin-bottom: 30px;
+}
+.subscribe .form-contrl{
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+}
+.subscribe button{
+    border-radius: 0;
+}
+.Statistics{
+    background: url('../fonts/st3.jpg');
+    
+    min-height: 600px;
+}
+.Statistics .data{
+    background: rgba(2,2,2, 0.6);
+    color: #b6b5b5;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.Statistics h1{
+    margin-bottom: 60px;
+    
+
+}
+.Statistics .stat{
+    -webkit-transition:all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  -o-transition:all 0.5s ease-in-out;
+  transition:all 0.5s ease;
+  margin-bottom: 30px;
+    
+
+}
+.Statistics .stat:hover{
+    color: #fff;
+
+}
+.Statistics p{
+    font-size: 60px;
+    font-weight: 800px;
+    margin-bottom: 0px;
+}
+.Statistics span{
+    font-size: 18px;
+}
+.Our-Skills{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.Our-Skills h1{
+    margin-bottom: 60px;
+}
+.Our-Skills h3{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.Our-Skills .progress {
+    height: 39;
+    
+}
+.Our-Skills .progress-bar {
+    line-height: 39px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+
+}
+.Contact-Us{
+
+    background: url('../fonts/c4.jpg')  ;
+    -webkit-background-size: covrer;
+    -moz-background-size: covrer;
+    -o-background-size: covrer;
+    background-size: covrer;
+    
+    min-height: 600px;
+}
+.Contact-Us .fields{
+    background: rgba(2,2,2, 0.6);
+    color: #fff;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.Contact-Us p{
+    margin-bottom: 40px;
+}
+.Contact-Us textarea{
+    height: 108px;
+}
+.Contact-Us input[type='text'],
+.Contact-Us textarea{
+    background: rgb(82,78,78,0.7);
+    color: #fff;
+    border: none;
+
+}
+.footer{
+    background: #333;
+    color: #aaa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+.footer a{
+    color: #aaa;
+}
+.footer a:hover{
+    color: #fff;
+}
+.footer h3{
+    color: #0895d1;
+    letter-spacing: 1px;
+    margin: 30px 0px 20px;
+}
+.footer .three-columns{
+    overflow: hidden;
+}
+/*.footer .three-columns li{
+    width: 33.3333%;
+    float: left;
+    padding: 5 0 ;
+} */
+.footer .socail-list{
+    overflow: hidden;
+    margin: 20px 0px 10px ;
+}
+.footer .socail-list li{
+    float: left;
+margin-right: 7px;
+opacity: 0.5;}
+.footer .socail-list li:hover{
+    opacity: 1;
+    -webkit-transition:all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  -o-transition:all 0.5s ease-in-out;
+  transition:all 0.5s ease;
+    
+}
+.footer .copyright{
+    background: #333;
+    color: #aaa;
+    padding: 15px 0px;
+}
+/*start madia quiry*/
+/*madrte walo fi media psq glta balak machi nes 
+sa9si groupe apres ida kante imp ndirha hado ali tahta ga3 les classesali
+ ts7a9home bdli rir cha raki barya tndli */
+@media(max-width:767px){
+
+
+}
+@media(min-width:768px)and(max-width:991px){
+
+
+}
+@media(min-width:767px)and(max-width:1199px){
+
+
+}
+@media(min-width:1200px){
+
+
+}
+/*start section Option Box*/
+.Option-Box{
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    z-index: 9999;
+}
+
+.Option-Box .color-option{
+    float:left ;
+    background: #333;
+    color:#fff ;
+    padding:10px ;
+
+    border: 4px solid #0895d1;
+    display: none;
+
+}
+.Option-Box .color-option ul li {
+    width: 20px;
+    height:20px ;
+   background:#0895d1 ;
+   display:inline-block ;
+   margin-right: 3px;
+}
+ .Option-Box .gear-check{
+     padding: 5px;
+     background:#0895d1 ;
+     color: #fff;
+     cursor: pointer;
+ }
+ /*.loading-overlay{
+     background:#222 ;
+     color: #fff;
+     position:absolute ;
+     left: 0px;
+     top: 0px;
+     width:100% ;
+     height: 100%;
+     z-index: 99999;
+ }*/
+ #scroll-top{
+     width: 50px;
+     height: 40px;
+     padding: 5px 8px ;
+     color:#ddd ;
+     background-color: #0895d1;
+     text-align: center;
+     position: fixed;
+     right:15px ;
+     bottom: 10px;
+     z-index: 9999;
+     display: none;
+     cursor: pointer;
+
+ }
+ 
+ #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
